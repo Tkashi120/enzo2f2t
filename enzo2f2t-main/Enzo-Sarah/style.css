@@ -1,0 +1,12 @@
+body{ background-color: rgb(112, 61, 27);
+
+}
+.livraria{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid;
+}
+.titulo{
+    color: azure;
+}

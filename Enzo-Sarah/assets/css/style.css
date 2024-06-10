@@ -1,6 +1,5 @@
-body{ background-color: rgb(112, 61, 27);
-
-}
-.titulo{
-    color: azure;
+@import url(reset.css);
+@import url(header.css);
+body{
+    background-color: #ebecce;
 }

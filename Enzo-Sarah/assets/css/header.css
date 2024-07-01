@@ -12,10 +12,14 @@
 }
     .menu-lista{
         display: none;
+        position: absolute;
+        width: 60vw;
+        text-transform: uppercase;
     }
 
     .seletor-menu:checked ~ .menu-lista{
         display:block;
+        /*Está fazendo com que a lista apareça quando o menu é selecionado*/
     }
     
     .menu-lista-item, .menu-lista-titulo{

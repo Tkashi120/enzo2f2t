@@ -1,6 +1,7 @@
 .cabecario{
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 .menu-hamburguer{
     width: 24px;
@@ -28,7 +29,11 @@
     }
     .menu-lista-titulo{
         color: var(--laranja);
+        font-weight: 700;
     }
+.seletor-menu{
+    display: none;
+}
     .menu-lista-link{
     background:var(--azul-degrade);
     --webkit-background-lip:text;
